@@ -1,0 +1,21 @@
+<!-- pages/map/index.wxml -->
+<view class="container">
+  <image src='/image/words.png' class='t1'></image>
+  <view class="tel">
+    <view class="tel_he">
+      <view class="call" bindtap="callhe">
+        <image src="/image/he.png" width="100%" />
+      </view>
+      呼叫新郎
+    </view>
+    <view class="tel_she">
+      <view class="call" bindtap="callshe">
+        <image src="/image/she.png" width="100%" />
+      </view>
+      呼叫新娘
+    </view>
+  </view>
+  <view class="bless_img">
+    <image src="/image/heart-animation.gif" />
+  </view>
+</view>

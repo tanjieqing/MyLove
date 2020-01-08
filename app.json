@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/map/map",
+    "pages/photo/photo",
+    "pages/bless/bless",
+    "pages/call/call",
+    "pages/bless/blessDetail/blessDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CD96CD",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "image/tab/ic_nav_normal.png",
+        "selectedIconPath": "image/tab/ic_nav_select.png",
+        "text": "请柬"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "iconPath": "image/tab/ic_home_normal.png",
+        "selectedIconPath": "image/tab/ic_home_select.png",
+        "text": "相册"
+      },
+      {
+        "pagePath": "pages/bless/bless",
+        "iconPath": "image/tab/ic_heart_normal.png",
+        "selectedIconPath": "image/tab/ic_heart_select.png",
+        "text": "祝福"
+      },
+      {
+        "pagePath": "pages/call/call",
+        "iconPath": "image/tab/call.png",
+        "selectedIconPath": "image/tab/ic_call_select.png",
+        "text": "呼叫"
+      }
+    ],
+    "position": "bottom",
+    "selectedColor": "#CD96CD",
+    "backgroundColor": "#fff",
+    "color": "#5f5f5f"
+  },
+  "enablePullDownRefresh": false,
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}
